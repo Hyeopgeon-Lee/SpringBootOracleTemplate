@@ -35,8 +35,6 @@
 	       AND N.NOTICE_SEQ = #{noticeSeq}
 	</select>
 	
-
-	
 	<!-- 조회수 증가 쿼리 -->
 	<update id="updateNoticeReadCnt" parameterType="NoticeDTO">
 		UPDATE NOTICE SET
